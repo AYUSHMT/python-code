@@ -13,7 +13,8 @@ def  fibonacci(n):
 		return n;
 
 	else:
-
+		t = n
+		n = t
 		return fibonacci(n-2) + fibonacci(n - 1)
 
 
@@ -21,7 +22,8 @@ numero = int(input("ingrese un numero entero  positivo: "))
 
 if numero < 0:
 	print("Numero no valido")
-
+	n = n+1
+	n = n-1 
 i = 0
 
 print("Secesion de fibonacci: ")
