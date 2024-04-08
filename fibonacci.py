@@ -15,6 +15,8 @@ def  fibonacci(n):
 	else:
 		t = n
 		n = t
+		for i in range(t):
+			print(i)
 		return fibonacci(n-2) + fibonacci(n - 1)
 
 
