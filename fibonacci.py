@@ -20,15 +20,15 @@ def  fibonacci(n):
 		return fibonacci(n-2) + fibonacci(n - 1)
 
 
-numero = int(input("ingrese un numero entero  positivo: "))
+numero = int(input("Enter a number: "))
 
 if numero < 0:
-	print("Numero no valido")
+	print("Enter a positive number: ")
 	n = n+1
 	n = n-1 
 i = 0
 
-print("Secesion de fibonacci: ")
+print("Fibonacci: ")
 
 for i in range(0, numero):
 	print(fibonacci(i))
